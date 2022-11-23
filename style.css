@@ -1,0 +1,150 @@
+
+body { 
+    padding-top: 65px; 
+}
+
+h1, h4{
+    color: #E0AAFF;
+}
+
+p, h5{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: normal;
+    color: #C77DFF;
+}
+
+.navigation{
+    width: 100%;
+    position: relative;
+    min-height: 50px;
+    z-index: 100;
+    background-color: #02010a;
+}
+
+.navbar{
+    background-color: #04052e !important;
+}
+
+.nav-link{
+    color:#E0AAFF !important;
+}
+
+.nav-link:hover{
+    color: #df2935 !important;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: #C77DFF !important;
+}
+
+.navbar-dark, .navbar-nav, .navbar-link{
+    font-weight: 600;
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+}
+
+.btn{
+    background-color: #2299aa !important;
+    border-radius: 2rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.hero-section{
+    background-color: #02010a;
+    padding-top: 60px;
+}
+
+.about-section, .skills-section, .portfolio-section, .contact-section{
+    background-color: #02010a;
+}
+
+.contact-link, .my-name {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(45deg,#df2935,#9000b3);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: #C77DFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #9D4EDD;
+    transition: 500ms ease;
+}
+  
+
+.icon{
+    color: #E0AAFF;
+    height: 70px;
+    max-width: 50px;
+    width: 100% !important;
+    margin: auto;
+    padding: 17px;
+    border-radius: 28px;
+}
+
+.icon:hover{
+    color: #df2935;
+}
+
+.navbar-toggler-icon{
+    color: #E0AAFF;
+}
+
+.navbar-toggler-icon:hover{
+    color: #df2935;
+}
+
+.card{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: #04052e;
+    height: 100%;
+    width: 100%;
+}
+
+.anchor{
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; /*same height as header*/
+    visibility: hidden;
+  }
+
+  .icon-card{
+    color: #E0AAFF;
+    max-width: 50px;
+    width: 100%;
+}
+
+
+.icon-card:hover{
+    color: #df2935;
+}
+
+.card-title{
+    padding-bottom: 1rem;
+}
+
+.canvas{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+.flex{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
